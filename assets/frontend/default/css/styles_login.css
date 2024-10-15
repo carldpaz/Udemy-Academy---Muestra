@@ -1,0 +1,132 @@
+#section_login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#section_login .login-form,
+#section_login .register-form,
+#section_login .forgot-password-form{
+    background: transparent;
+}
+#section_login .login-box .content-title-box,
+#section_login .login-box .content-update-box{
+    border: none;
+}
+
+#section_login .img_chart {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.login-box .content-title-box{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.login-box .content-title-box .title {
+    font-weight: 700;
+    font-size: 1rem;
+}
+.login-box .content-title-box .subtitle{
+    text-align: center;
+}
+#section_login .login-box {
+    box-shadow: 0 7px 10px 0 #c9c9c9;
+    border-radius: 14px;
+    padding: 35px 25px 40px;
+    max-width: 400px;
+    margin: 0 auto 30px;
+}
+#section_login #img_cont_logo img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#section_login form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.login-box .form-group {
+    padding: 5px 20px;
+}
+.login-box .form-group .form-control{
+    border-radius: 8px;
+    height: 45px;
+}
+.login-box .content-update-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.login-box .btn{
+    min-width: 130px;
+    margin: 5px auto;
+    padding: 10px 15px;
+    background-color: var(--secondary-color);
+    color: #ffffff;
+}
+.login-box .btn:hover{
+    background-color: var(--main-color);
+}
+.login-box .btn.sign_up{
+    background-color: transparent;
+    color: #444444;
+    border: 1px solid #444444;
+    font-weight: 700;
+}
+.login-box .btn.sign_up:hover,
+.login-box .btn.sign_up:active{
+    background-color: #444444;
+    color: #ffffff;
+}
+#section_login .text-muted {
+    color: #a6b2bc!important;
+}
+.my-group{
+    display: flex;
+    flex-direction: row;
+}
+.my-group .form-control{
+    display: inline-block;
+    height: 45px!important;
+}
+.my-group select.form-control{
+    width: 30%;
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+}
+.my-group input.form-control{
+    width: 70%;
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+}
+
+#section_login form .input-group-append .btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: auto;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    color: #444;
+    background-color: #FFFFFF;
+    border: 1px solid #ccc;
+    border-radius: 0 8px 8px 0;
+
+}
+#section_login .login-box .content-box .group-two .form-control:first-child{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.bt_show_pass.show > i.fas:before{
+    content: "\f070";
+}

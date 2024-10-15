@@ -1,0 +1,160 @@
+.home-banner-area .btn{
+    margin: 10px;
+}
+.home-banner-area .buttons > div{
+    width: 100%;
+    text-align: center;
+}
+.section .course-carousel-title{
+    display: table;
+    font-size: 2rem;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+.section .course-carousel-title::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    height: 3px;
+    width: 100px;
+    background-color: var(--main-color);
+}
+
+
+#section_new_course .course_content{
+    text-align: center;
+}
+#section_new_course .course_title{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#section_new_course .course_image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#section_new_course .course_image img{
+    width: 300px;
+}
+
+.plans{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.plans .item{
+    padding: 35px 10px 15px;
+    border-radius: 14px;
+    background-color: #000230;
+    background-image: url("../../../../uploads/system/home/grafica_vela_green.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    color: #ffffff;
+    max-width: 250px;
+    text-align: center;
+    overflow: hidden;
+    margin: 10px 5px;
+}
+.plans .item.cashbot_pro{
+    background-color: #333333;
+    background-image: url("../../../../uploads/system/home/grafica_vela_gold.png");
+}
+.plans .item .icon{
+    position: absolute;
+    left: auto;
+    top: 0;
+    right: 0;
+    width: 30px;
+    padding: 5px;
+}
+.plans .item .icon img{
+    width: 100%;
+}
+.plans .item .icon::before{
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    height: 170%;
+    width: 170%;
+    background-image: linear-gradient(45deg, transparent 50%, rgba(255, 255, 255, .2) 50%);
+}
+.plans .item .icon img{
+    max-width: 100%;
+}
+.plans .item .title{
+    font-weight: 300;
+    font-size: 1em;
+}
+.plans .item .title,
+.plans .item .price{
+    margin-bottom: 15px;
+}
+.plans .item .price{
+    font-weight: 300;
+}
+.plans .item .price .amount{
+    font-size: 2.5em;
+}
+.plans .item .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plans .item .btn{
+    padding: 5px 15px;
+    margin: 5px 5px 10px;
+}
+
+#section_video_2{
+    padding: 0;
+    background-color: #000000;
+    height: 60vw;
+    max-height: 90vh;
+}
+
+@media screen and (min-width: 767px){
+    .home-banner-area .buttons > div{
+        width: auto;
+    }
+    .home-banner-wrap .section-title{
+        text-align: left;
+        font-size: 3rem;
+        max-width: 550px;
+    }
+    #section_new_course .course_image{
+        justify-content: flex-end;
+    }
+    #section_new_course .course_title{
+        margin-bottom: 35px;
+    }
+    #section_new_course .description{
+        margin-bottom: 25px;
+    }
+    #section_new_course .course_content{
+        text-align: left;
+    }
+    .plans .item{
+        padding: 50px 30px;
+        margin: 10px 15px;
+    }
+    .plans .item .icon{
+        padding: 10px;
+        width: 50px;
+    }
+    .plans .item .price .amount{
+        font-size: 3.5em;
+    }
+    .plans .item .title,
+    .plans .item .price{
+        margin-bottom: 40px;
+    }
+}

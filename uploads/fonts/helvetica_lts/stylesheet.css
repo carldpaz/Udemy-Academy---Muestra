@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('HelveticaLTStd-LightCondObl.eot');
+    src: url('HelveticaLTStd-LightCondObl.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaLTStd-LightCondObl.woff2') format('woff2'),
+        url('HelveticaLTStd-LightCondObl.woff') format('woff'),
+        url('HelveticaLTStd-LightCondObl.ttf') format('truetype'),
+        url('HelveticaLTStd-LightCondObl.svg#HelveticaLTStd-LightCondObl') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('HelveticaLTStd-BlkCondObl.eot');
+    src: url('HelveticaLTStd-BlkCondObl.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaLTStd-BlkCondObl.woff2') format('woff2'),
+        url('HelveticaLTStd-BlkCondObl.woff') format('woff'),
+        url('HelveticaLTStd-BlkCondObl.ttf') format('truetype'),
+        url('HelveticaLTStd-BlkCondObl.svg#HelveticaLTStd-BlkCondObl') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+

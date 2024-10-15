@@ -1,0 +1,104 @@
+.menu-area{
+    background-color: #ffffff;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menu-area .navbar .navbar-brand img{
+    content: url("../../../../uploads/system/home/logo_sysmo_azul.svg");
+}
+.main-nav-wrap,
+.sign-in-box,
+.search-form,
+.user-box,
+.mobile-header-buttons{
+    display: none;
+}
+
+.footer-area{
+    background-color: #000230 ;
+}
+.footer-menu .nav-link,
+.footer-area .social-item > a,
+.row_bottom_footer .footer-menu .nav-link{
+    color: #ffffff;
+}
+.footer-menu .nav-link:hover{
+    background-color: var(--red-color);
+}
+.row_bottom_footer .footer-menu .nav-link:hover{
+    color: var(--red-color);
+}
+.footer-area .copyright-text img{
+    content: url("../../../../uploads/system/logo-white.svg");
+}
+#section_education{
+    background: var(--main-color);
+}
+#section_education > div{
+    z-index: 10;
+}
+#section_education .col{
+    max-width: 750px;
+}
+#section_education::before,
+#section_education::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+}
+#section_education::before{
+    background-image: url("../../../../uploads/system/home/fondo_seccion_education.jpg");
+    background-size: cover;
+    left: 0;
+    width: 100%;
+}
+#section_education::after{
+    width: 100%;
+    background-image: linear-gradient(0, var(--main-color) 30%, transparent);
+}
+#section_education .home-banner-wrap{
+    text-align: center;
+}
+#section_education .section-title{
+    font-size: 3rem;
+    text-shadow: none;
+}
+#section_education .section-title,
+#section_education .btn{
+    font-family: 'Helvetica LT Std', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+}
+#section_education .buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#section_education .buttons .btn{
+    font-size: 1rem;
+}
+@media screen and (min-width: 760px) {
+
+    #section_education::before{
+        left: 40%;
+        width: 60%;
+    }
+    #section_education::after{
+        background-image: linear-gradient(90deg, var(--main-color) 40%, transparent);
+    }
+    #section_education .home-banner-wrap{
+        text-align: left;
+    }
+    #section_education .section-title {
+        text-align: left;
+        font-size: 7rem;
+    }
+    #section_education .buttons{
+        justify-content: left;
+    }
+}
